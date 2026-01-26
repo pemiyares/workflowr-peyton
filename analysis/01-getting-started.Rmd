@@ -1,0 +1,20 @@
+---
+title: "01-getting-started"
+author: "Peyton Miyares"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+The project topic I will use this semester is cognitive mechanisms linking rejection sensitivity to anxiety. I will be looking at data from a baseline enrollment session, lab data, and EMA data.
+
+```{r, include=FALSE}
+#Above command hides the output for loading the two packages
+library(dplyr)
+library(tidyr)
+library(workflowr)
+```
+
+```{r}
+data <- read.csv("/Users/peytonmiyares/Downloads/workflowr-peyton/data/powerball.csv")
+  summary(data)
+```
