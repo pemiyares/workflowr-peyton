@@ -1,7 +1,7 @@
-name: "workflowr-peyton"
+name: workflowr-peyton
 output_dir: ../docs
 navbar:
-  title: "workflowr-peyton"
+  title: workflowr-peyton
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/myname/workflowr-peyton
 output:
   workflowr::wflow_html:
     toc: yes
